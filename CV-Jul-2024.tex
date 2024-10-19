@@ -1,0 +1,230 @@
+%-------------------------
+% Resume in Latex
+% Author : Sidratul Muntaha Ahmed
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[russian]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+
+
+\begin{center}
+    \textbf{\Huge \scshape Дегтярев Михаил Сергеевич} \\ \vspace{1pt}
+    \small 8-910-243-2515 $|$ {discord: mishbanya} $|$ 
+    {telegram: @mishbanya} $|$
+    \href{https://github.com/mishbanya}{\underline{github.com/mishbanya}} $|$
+    {{degtyarevmishas@yandex.ru}}
+\end{center}
+
+
+%-----------EDUCATION-----------
+\section{Образование}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {НИУ "Московский энергетический институт"}{Москва, РФ}
+      {Бакалавр, 1 курс}{Окончен 2022}
+          \resumeItemListStart
+          \resumeItem{Институт: Информационных и вычислительных технологий}
+            \resumeItem{Направление: Информатика и вычислительная техника}
+            \resumeItem{Средний балл: 4}
+        \resumeItemListEnd
+    \resumeSubheading
+      {ФГБОУ ВО "Воронежский Государственный университет"}{Воронеж, РФ}
+      {Бакалавр, 2 курс - Настоящее время}{Ожидаемый год окончания - 2025}
+          \resumeItemListStart
+              \resumeItem{Факультет: Прикладной математики, информатики и механики}
+            \resumeItem{Направление: Прикладная математика и информатика}
+            \resumeItem{Кафедра: Математического и Прикладного Анализа}
+            \resumeItem{Средний балл: 4}
+            
+        \resumeItemListEnd
+
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Опыт работы}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Главный специалист}{Ноябрь 2023 – Настоящее время}
+      {НТЦ "ИРБИС"}{Воронеж, РФ}
+      \resumeItemListStart
+      \resumeItem{Проект: ПК "ВИЗИР"}
+        \resumeItem{Роль: Исследование тестирующего обеспечения и его модификация. Участие в сертификации ПО.}
+      \resumeItemListEnd
+     
+    \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Проекты}
+
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{SSMT} $|$ {Android SDK, Java | \href{https://github.com/mishbanya/SSMT}{\underline{github.com/mishbanya/SSMT}}}}{Декабрь 2023 -- Март 2024}
+          \resumeItemListStart
+            \resumeItem{Цель: Обучение}
+            \resumeItem{Описание: Простое Android-приложение, посвященное тренировкам. Неудачный опыт, но всё же опыт.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{GeoBuddies} $|$ {Android SDK, Kotlin | \href{https://github.com/mishbanya/SSMT}{\underline{github.com/N1oH0my/GeoBuddies}}}}{Апрель 2024 -- Июль 2024}
+          \resumeItemListStart
+            \resumeItem{Цель: Практика от Surf}
+            \resumeItem{Описание: Приложение, позволяющее видеть себя и своих друзей на карте в реальном времени.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{SSMT2} $|$ {Android SDK, Kotlin | \href{https://github.com/mishbanya/SSMT}{\underline{github.com/mishbanya/SSMT2}}}}{Июль 2024 -- Настоящее время}
+          \resumeItemListStart
+            \resumeItem{Цель: Самостоятельная Практика}
+            \resumeItem{Описание: Простое Android-приложение, посвященное подсчету калорий. Новый взгляд на старый проект.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%-----------TECHNICAL SKILLS-----------
+\section{Навыки и умения}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Языки}{: Kotlin, Java, C++, C\#, C} \\
+     \textbf{Библиотеки Kotlin}{: OkHttp, Retrofit, RxJava, Hilt, Dagger, Room и др.} \\
+     \textbf{Среды}{: Android Studio, IntelliJ IDEA, Visual Studio, CLion} \\
+     \textbf{СУБД}{: PostgreSQL, Oracle, MySQL} \\
+     \textbf{Прикладные}{: Matlab, Maple, STATISTICA, Adobe Photoshop, Premiere Pro и др.} \\
+     \textbf{Другое}{: Git, Unreal Engine, Linux, XML}
+    }}
+ \end{itemize}
+
+
+%-----------COMMUNITY AND LEADERSHIP-----------
+\section{Владение языками}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Русский}{2004 – Настоящее время}
+      {C2 - Proficiency}{}
+    \resumeSubheading
+      {Английский}{2009 – Настоящее время}
+      {B2 - Upper-Intermediate}{}
+    \resumeSubheading
+      {Испанский}{Июнь 2022 – Июль 2022}
+      {A1 - Elementary}{}
+    \resumeSubHeadingListEnd
+
+\section{Хобби и увлечения}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Спорт}{: Бодибилдинг, Спортивное ориентирование, Дзюдо, Самбо, Вольная борьба, Настольный теннис} \\
+     \textbf{Любимые жанры музыки}{: Хип-хоп, Зарубежный рэп, Психоделик-рок} \\
+     \textbf{Любимые исполнители}{: Yeat, Playboi Carti, Tyler the Creator} \\
+     \textbf{Любимые фильмы}{: Шоу Трумана, Интерстеллар, Остров проклятых} \\
+     \textbf{Любимые сериалы}{: Во все тяжкие, Лучше звоните Солу, Черное зеркало, Тетрадь смерти} \\
+     \textbf{Любимая книга}{: Мастер и Маргарита} \\
+     \textbf{Любимый цвет}{: Оранжевый} \\
+     \textbf{В свободное время}{: Прогулки с друзьями, Кино, Игры}
+    }}
+ \end{itemize}
+
+\end{document}
+
+
